@@ -1,0 +1,6 @@
+[Unit]
+Description=Save my firefox history from inevitable deletion
+
+[Service]
+Type=simple
+ExecStart=%h/projects/savehistory/save.sh

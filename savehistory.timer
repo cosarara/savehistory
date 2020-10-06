@@ -1,0 +1,10 @@
+[Unit]
+Description=Save my firefox history from inevitable deletion
+
+[Timer]
+# see man systemd.time
+OnCalendar=weekly
+Persistent=true
+
+[Install]
+WantedBy=default.target
